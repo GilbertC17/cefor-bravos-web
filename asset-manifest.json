@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/cefor-bravos-web/static/css/main.a0d01827.css",
-    "main.js": "/cefor-bravos-web/static/js/main.243aa1cf.js",
+    "main.css": "/cefor-bravos-web/static/css/main.a46b5634.css",
+    "main.js": "/cefor-bravos-web/static/js/main.aaa758ad.js",
     "static/js/453.fd9cec78.chunk.js": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js",
+    "static/media/entrenamiento2.jpg": "/cefor-bravos-web/static/media/entrenamiento2.b06098770958f2be28d3.jpg",
+    "static/media/entrenamiento3.jpg": "/cefor-bravos-web/static/media/entrenamiento3.4957214d8fa2930bf140.jpg",
+    "static/media/entrenamiento4.jpg": "/cefor-bravos-web/static/media/entrenamiento4.3d2295df187d81052b90.jpg",
     "static/media/Logo_tehuacan.png": "/cefor-bravos-web/static/media/Logo_tehuacan.b38ad46dc90d8a6387f0.png",
     "index.html": "/cefor-bravos-web/index.html",
-    "main.a0d01827.css.map": "/cefor-bravos-web/static/css/main.a0d01827.css.map",
-    "main.243aa1cf.js.map": "/cefor-bravos-web/static/js/main.243aa1cf.js.map",
+    "main.a46b5634.css.map": "/cefor-bravos-web/static/css/main.a46b5634.css.map",
+    "main.aaa758ad.js.map": "/cefor-bravos-web/static/js/main.aaa758ad.js.map",
     "453.fd9cec78.chunk.js.map": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0d01827.css",
-    "static/js/main.243aa1cf.js"
+    "static/css/main.a46b5634.css",
+    "static/js/main.aaa758ad.js"
   ]
 }
