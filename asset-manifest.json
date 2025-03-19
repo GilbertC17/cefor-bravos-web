@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cefor-bravos-web/static/css/main.fe8667f6.css",
+    "main.js": "/cefor-bravos-web/static/js/main.243aa1cf.js",
+    "static/js/453.fd9cec78.chunk.js": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js",
+    "static/media/Logo_tehuacan.png": "/cefor-bravos-web/static/media/Logo_tehuacan.b38ad46dc90d8a6387f0.png",
+    "index.html": "/cefor-bravos-web/index.html",
+    "main.fe8667f6.css.map": "/cefor-bravos-web/static/css/main.fe8667f6.css.map",
+    "main.243aa1cf.js.map": "/cefor-bravos-web/static/js/main.243aa1cf.js.map",
+    "453.fd9cec78.chunk.js.map": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe8667f6.css",
+    "static/js/main.243aa1cf.js"
+  ]
+}
