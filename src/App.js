@@ -2,6 +2,7 @@ import logo from './img/Logo_tehuacan.png';
 import './App.css';
 import './bootstrap/css/bootstrap.min.css';
 import './bootstrap/js/bootstrap.min.js';
+import Carousel from './carousel.js';
 
 function App() {
   return (
@@ -17,14 +18,23 @@ function App() {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Equipo</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Equipo
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Categorías</a></li>
+            <li><hr class="dropdown-divider"></hr></li>
+            <li><a class="dropdown-item" href="#">Sub-15</a></li>
+            <li><a class="dropdown-item" href="#">Sub-17</a></li>
+
+          </ul>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Noticias</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Brimmer</a>
+          <a className="nav-link" href="#">Inclusivo</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Otros Centros</a>
@@ -38,8 +48,10 @@ function App() {
       </ul>
     </div>
   </div>
+  <hr class="hr-green"></hr>
 </nav>
   );
+  
 }
 
 export default App;

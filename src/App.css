@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .logo-nav {
@@ -23,6 +24,7 @@
 
 .navbar {
   background-color: #1a1a1a !important;
+  border-bottom: 2px #1bcc33 solid;
 }
 
 .custom-navbar {
@@ -50,16 +52,75 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
 
+.dropdown-divider {
+  border: 1px #1bcc33 solid;
+}
+
+.dropdown-item:hover {
+  background-color: #1a1a1a !important;
+}
+
+.dropdown-menu {
+  background-color: #1a1a1a !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.carousel {
+  margin: auto;
+}
+
+.title-carousel {
+  position: absolute;
+  z-index: 7;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-carousel h1 {
+  font-size: 56px;
+  color: white;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.d-block {
+  filter: opacity(0.7);
+}
+
 @media screen and (max-width: 442px) {
   .navbar-brand {
     font-size: 17px !important;
   }
 
+  .title-carousel h1 {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 1453px) {
+  .title-carousel h1 {
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .title-carousel h1 {
+    font-size: 26px !important;
+  }
 }
 
 @media screen and (max-width: 409px) {
   .navbar-brand {
    font-size: 16px !important;
+  }
+
+  .title-carousel h1 {
+    font-size: 14px !important;
   }
 
 }
