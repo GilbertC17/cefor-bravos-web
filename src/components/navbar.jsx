@@ -11,32 +11,36 @@ import '../App.css';
 const NavBar = () => {
   const [navbarState, setNavbarState] = useState({
     logo: logo,
-    text: 'FILIALES OFICIALES<br />BRAVOS JUÁREZ'
+    text: 'FILIALES OFICIALES<br />BRAVOS JUÁREZ',
+    className: 'default-logo'
   });
 
   const handleSedeChange = (sede) => {
     switch (sede) {
       case 'tehuacan':
-        setNavbarState({ logo: logoTehuacan, text: 'CENTRO DE FORMACIÓN<br />BRAVOS TEHUACÁN' });
+        setNavbarState({ logo: logoTehuacan, text: 'CENTRO DE FORMACIÓN<br />BRAVOS TEHUACÁN', className: 'tehuacan-logo' });
         break;
       case 'femenil':
-        setNavbarState({ logo: logoFemenil, text: 'CENTRO DE FORMACIÓN<br />BRAVOS FEMENIL' });
+        setNavbarState({ logo: logoFemenil, text: 'CENTRO DE FORMACIÓN<br />BRAVOS FEMENIL', className: 'femenil-logo' });
         break;
       case 'puebla':
-        setNavbarState({ logo: logoPuebla, text: 'CENTRO DE FORMACIÓN<br />BRAVOS PUEBLA' });
+        setNavbarState({ logo: logoPuebla, text: 'CENTRO DE FORMACIÓN<br />BRAVOS PUEBLA', className: 'puebla-logo' });
         break;
       case 'tepanco':
-        setNavbarState({ logo: logoTepanco, text: 'CENTRO DE FORMACIÓN<br />BRAVOS TEPANCO' });
+        setNavbarState({ logo: logoTepanco, text: 'CENTRO DE FORMACIÓN<br />BRAVOS TEPANCO', className: 'tepanco-logo' });
+        break;
+      case 'default':
+        setNavbarState({ logo: logo, text: 'FILIALES OFICIALES<br />BRAVOS JUÁREZ', className: 'default-logo' });
         break;
       default:
-        setNavbarState({ logo: logo, text: 'FILIALES OFICIALES<br />BRAVOS JUÁREZ' });
+        setNavbarState({ logo: logo, text: 'FILIALES OFICIALES<br />BRAVOS JUÁREZ', className: 'default-logo' });
     }
   };
 
   return (
     <nav className="navbar navbar-expand-lg custom-navbar">
       <div className="container-fluid center">
-        <img src={navbarState.logo} className="logo-nav" alt="Logo" />
+        <img src={navbarState.logo} className={`logo-nav ${navbarState.className}`} alt="Logo" />
         <a className="navbar-brand" href="/home" dangerouslySetInnerHTML={{ __html: navbarState.text }}></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -53,10 +57,10 @@ const NavBar = () => {
               <ul className="dropdown-menu">
                 <li><Link className="dropdown-item" to="/team" onClick={() => handleSedeChange('sedes')}>Sedes</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><Link className="dropdown-item" to="/sub-15" onClick={() => handleSedeChange('tehuacan')}>Tehuacán Varonil</Link></li>
-                <li><Link className="dropdown-item" to="/sub-15" onClick={() => handleSedeChange('femenil')}>Tehuacán Femenil</Link></li>
-                <li><Link className="dropdown-item" to="/sub-15" onClick={() => handleSedeChange('puebla')}>Puebla</Link></li>
-                <li><Link className="dropdown-item" to="/sub-17" onClick={() => handleSedeChange('tepanco')}>Tepanco</Link></li>
+                <li><Link className="dropdown-item" to="/tehuacan-men" onClick={() => handleSedeChange('tehuacan')}>Tehuacán Varonil</Link></li>
+                <li><Link className="dropdown-item" to="/tehuacan-womens" onClick={() => handleSedeChange('femenil')}>Tehuacán Femenil</Link></li>
+                <li><Link className="dropdown-item" to="/puebla" onClick={() => handleSedeChange('puebla')}>Puebla</Link></li>
+                <li><Link className="dropdown-item" to="/tepanco" onClick={() => handleSedeChange('tepanco')}>Tepanco</Link></li>
               </ul>
             </li>
             <li className="nav-item"><Link className="nav-link" to="/notices">Noticias</Link></li>
