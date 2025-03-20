@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/cefor-bravos-web/static/css/main.a46b5634.css",
-    "main.js": "/cefor-bravos-web/static/js/main.aaa758ad.js",
+    "main.css": "/cefor-bravos-web/static/css/main.213c4bad.css",
+    "main.js": "/cefor-bravos-web/static/js/main.3709f249.js",
     "static/js/453.fd9cec78.chunk.js": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js",
+    "static/media/logo_tepanco.png": "/cefor-bravos-web/static/media/logo_tepanco.29846f6c9170b76f525f.png",
+    "static/media/logo_femenil.png": "/cefor-bravos-web/static/media/logo_femenil.6b1bffd50e2ac00fc7fa.png",
     "static/media/entrenamiento2.jpg": "/cefor-bravos-web/static/media/entrenamiento2.b06098770958f2be28d3.jpg",
     "static/media/entrenamiento3.jpg": "/cefor-bravos-web/static/media/entrenamiento3.4957214d8fa2930bf140.jpg",
     "static/media/entrenamiento4.jpg": "/cefor-bravos-web/static/media/entrenamiento4.3d2295df187d81052b90.jpg",
-    "static/media/Logo_tehuacan.png": "/cefor-bravos-web/static/media/Logo_tehuacan.b38ad46dc90d8a6387f0.png",
+    "static/media/logo_tehuacan.png": "/cefor-bravos-web/static/media/logo_tehuacan.8c521b2147fcdd5e155e.png",
+    "static/media/logo_puebla.png": "/cefor-bravos-web/static/media/logo_puebla.117e8c7c52b53cd6b6c5.png",
+    "static/media/logo_fcjuarez.png": "/cefor-bravos-web/static/media/logo_fcjuarez.881f00e04b0e8f0890f8.png",
     "index.html": "/cefor-bravos-web/index.html",
-    "main.a46b5634.css.map": "/cefor-bravos-web/static/css/main.a46b5634.css.map",
-    "main.aaa758ad.js.map": "/cefor-bravos-web/static/js/main.aaa758ad.js.map",
+    "main.213c4bad.css.map": "/cefor-bravos-web/static/css/main.213c4bad.css.map",
+    "main.3709f249.js.map": "/cefor-bravos-web/static/js/main.3709f249.js.map",
     "453.fd9cec78.chunk.js.map": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a46b5634.css",
-    "static/js/main.aaa758ad.js"
+    "static/css/main.213c4bad.css",
+    "static/js/main.3709f249.js"
   ]
 }
