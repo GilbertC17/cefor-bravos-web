@@ -1,5 +1,6 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/navbar.jsx";
+import Footer from './components/footer.jsx';
 import Home from "./pages/home.jsx";
 import Team from "./pages/team.jsx";
 import Notices from "./pages/notices.jsx";
@@ -8,7 +9,7 @@ import Varonil from "./pages/tehuacan-men.jsx";
 import Femenil from "./pages/tehuacan-womens.jsx";
 import Puebla from "./pages/puebla.jsx";
 import Tepanco from "./pages/tepanco.jsx";
-
+import './bootstrap/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
           <Route path="/tepanco" element={<Tepanco />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
+
   );
 }
 
