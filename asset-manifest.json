@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/cefor-bravos-web/static/css/main.41f67dcd.css",
-    "main.js": "/cefor-bravos-web/static/js/main.5c902118.js",
+    "main.css": "/cefor-bravos-web/static/css/main.1c3aa9fb.css",
+    "main.js": "/cefor-bravos-web/static/js/main.011e7f51.js",
     "static/js/453.fd9cec78.chunk.js": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js",
+    "static/media/notice-2.jpg": "/cefor-bravos-web/static/media/notice-2.82b4abc9f737ae7e9e68.jpg",
     "static/media/logo_tepanco.png": "/cefor-bravos-web/static/media/logo_tepanco.29846f6c9170b76f525f.png",
+    "static/media/imagen-post1.jpg": "/cefor-bravos-web/static/media/imagen-post1.cc88603a721896872f22.jpg",
     "static/media/logo_femenil.png": "/cefor-bravos-web/static/media/logo_femenil.6b1bffd50e2ac00fc7fa.png",
+    "static/media/imagen-post2.jpg": "/cefor-bravos-web/static/media/imagen-post2.ca6d38eb59f5120c4fb1.jpg",
     "static/media/entrenamiento2.jpg": "/cefor-bravos-web/static/media/entrenamiento2.b06098770958f2be28d3.jpg",
     "static/media/entrenamiento3.jpg": "/cefor-bravos-web/static/media/entrenamiento3.4957214d8fa2930bf140.jpg",
     "static/media/entrenamiento4.jpg": "/cefor-bravos-web/static/media/entrenamiento4.3d2295df187d81052b90.jpg",
     "static/media/logo_tehuacan.png": "/cefor-bravos-web/static/media/logo_tehuacan.8c521b2147fcdd5e155e.png",
     "static/media/logo_puebla.png": "/cefor-bravos-web/static/media/logo_puebla.117e8c7c52b53cd6b6c5.png",
     "static/media/logo_fcjuarez.png": "/cefor-bravos-web/static/media/logo_fcjuarez.881f00e04b0e8f0890f8.png",
+    "static/media/bg-interior.jpg": "/cefor-bravos-web/static/media/bg-interior.a506154ed8d16e9eb4df.jpg",
+    "static/media/notice-1.jpg": "/cefor-bravos-web/static/media/notice-1.20499256caaaac4d912b.jpg",
+    "static/media/imagen-home1.jpg": "/cefor-bravos-web/static/media/imagen-home1.9d48d43206a1e1d14369.jpg",
+    "static/media/notice-3.jpg": "/cefor-bravos-web/static/media/notice-3.c2ccd03b1f4998557f81.jpg",
     "index.html": "/cefor-bravos-web/index.html",
-    "main.41f67dcd.css.map": "/cefor-bravos-web/static/css/main.41f67dcd.css.map",
-    "main.5c902118.js.map": "/cefor-bravos-web/static/js/main.5c902118.js.map",
+    "main.1c3aa9fb.css.map": "/cefor-bravos-web/static/css/main.1c3aa9fb.css.map",
+    "main.011e7f51.js.map": "/cefor-bravos-web/static/js/main.011e7f51.js.map",
     "453.fd9cec78.chunk.js.map": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41f67dcd.css",
-    "static/js/main.5c902118.js"
+    "static/css/main.1c3aa9fb.css",
+    "static/js/main.011e7f51.js"
   ]
 }
