@@ -2,6 +2,7 @@ import '../App.js';
 import '../bootstrap/css/bootstrap.min.css';
 import '../bootstrap/js/bootstrap.min.js';
 import '../App.css';
+import Animated from '../components/Animated';
 
 function Carousel() {
   return (
@@ -12,7 +13,11 @@ function Carousel() {
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div className="carousel-inner">
-      <div className="title-carousel"><h1>DA EL SALTO Y CONVIÉRTETE EN UN FUTBOLISTA DE ALTO RENDIMIENTO CON NOSOTROS</h1></div>
+      <div className="title-carousel">
+      <Animated animation="animate__fadeInLeft" delay="0.5s">
+      <h1>DA EL SALTO Y CONVIÉRTETE EN UN FUTBOLISTA DE ALTO RENDIMIENTO CON NOSOTROS</h1>
+      </Animated>
+      </div>
         <div className="carousel-item active">
           <img src={require('../img/entrenamiento2.jpg')} className="d-block w-100" alt="Entrenamiento 2" />
           <div className="carousel-caption d-none d-md-block">

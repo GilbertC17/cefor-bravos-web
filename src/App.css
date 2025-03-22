@@ -45,12 +45,12 @@
 }
 
 .navbar {
-  background-color: #1a1a1a !important;
+  background-color: #111111 !important;
   border-bottom: 2px #1bcc33 solid;
 }
 
 .custom-navbar {
-  background-color: #1a1a1a !important;
+  background-color: #111111 !important;
 }
 
 .container-fluid a {
@@ -70,20 +70,6 @@
     border: 2px white solid !important;
   }
 
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  .navbar-brand,
-  .logo-nav {
-    animation: fadeIn 0.5s ease-in-out;
-  }
-
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
@@ -93,11 +79,11 @@
 }
 
 .dropdown-item:hover {
-  background-color: #1a1a1a !important;
+  background-color: #111111 !important;
 }
 
 .dropdown-menu {
-  background-color: #1a1a1a !important;
+  background-color: #111111 !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
