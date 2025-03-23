@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../img/logo_fcjuarez.png';
 import logoTehuacan from '../img/logo_tehuacan.png';
 import logoFemenil from '../img/logo_femenil.png';
@@ -9,6 +9,7 @@ import '../bootstrap/css/bootstrap.min.css';
 import '../App.css';
 
 const NavBar = () => {
+  const location = useLocation();
   const [navbarState, setNavbarState] = useState({
     logo: logo,
     text: 'FILIALES OFICIALES<br />BRAVOS JUÁREZ',
@@ -36,6 +37,11 @@ const NavBar = () => {
         setNavbarState({ logo: logo, text: 'FILIALES OFICIALES<br />BRAVOS JUÁREZ', className: 'default-logo' });
     }
   };
+
+  // Ocultar el NavBar en la ruta del panel de control del administrador
+  if (location.pathname === '/control-panel-admin') {
+    return null;
+  }
 
   return (
     <nav className="navbar navbar-expand-lg custom-navbar">
@@ -66,7 +72,7 @@ const NavBar = () => {
             <li className="nav-item"><Link className="nav-link" to="/notices">Noticias</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/inclusive">Inclusivo</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/contact">Contacto</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/login">Iniciar Sesión</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/sign-in">Iniciar Sesión</Link></li>
           </ul>
         </div>
       </div>
