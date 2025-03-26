@@ -1,0 +1,78 @@
+.mt-5 {
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.title-container-notices {
+  margin-bottom: 120px;
+}
+
+.modal-content {
+  color: black;
+}
+
+.modal-body p {
+  color: black !important;
+}
+
+.notice-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-style: italic;
+  padding: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.mb-4-notice {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #111111;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mb-4-notice img {
+  max-width: 500px;
+  min-width: 250px;
+  object-fit: cover;
+}
+
+.notice-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  max-height: 500px;
+  min-height: 500px;
+  margin-bottom: 50px;
+}
+
+.notice-content p {
+  padding: 30px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+@media (max-width: 991px) {
+
+  .notice-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    max-height: none;
+    min-height: none;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .notice-content img {
+    max-width: none;
+    min-width: none;
+  }
+
+
+
+
+
+}

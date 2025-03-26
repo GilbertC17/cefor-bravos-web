@@ -1,25 +1,32 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../bootstrap/css/bootstrap.min.css';
 import '../App.css';
 
 const AdminNavBar = () => {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    // Eliminar el token del localStorage
+    localStorage.removeItem('token');
+    // Redirigir al usuario al inicio de sesión
+    navigate('/sign-in');
+  };
+
   return (
     <div className="admin-navbar">
       <ul className="nav flex-column">
         <li className="nav-item">
-          <Link className="nav-link" to="/admin/dashboard">Panel Principal</Link>
+          <Link className="nav-link" to="/control-panel-admin">Panel Principal</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/admin/notices">Noticias</Link>
+          <Link className="nav-link" to="/admin-pages/notices-admin">Noticias</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/admin/posts">Publicaciones</Link>
+          <button className="btn btn-link nav-link text-danger" onClick={handleLogout}>
+            Cerrar Sesión
+          </button>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/admin/tryouts">Visorías</Link>
-        </li>
-        {/* Agrega más enlaces según sea necesario */}
       </ul>
     </div>
   );

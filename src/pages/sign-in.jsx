@@ -30,13 +30,15 @@ function SignIn() {
     }
     try {
       const response = await axios.post('http://localhost:3001/api/auth/signin', { username, password });
-      console.log(response.data);
+      console.log('Sign-in response:', response.data);
 
+      // Guardar el token en localStorage
       localStorage.setItem('token', response.data.accessToken);
+      console.log('Token saved to localStorage:', response.data.accessToken);
 
       navigate('/control-panel-admin');
     } catch (error) {
-      console.error('Error signing in', error);
+      console.error('Error signing in:', error.response ? error.response.data : error.message);
       setErrors({ form: 'Usuario o contraseña incorrectos' });
     }
   };

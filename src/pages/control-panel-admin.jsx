@@ -8,11 +8,13 @@ function ControlPanelAdmin() {
 
   useEffect(() => {
     const token = localStorage.getItem('token');
+    console.log('Token retrieved from localStorage:', token);
+
     if (!token) {
       console.log('No token found, redirecting to sign-in');
       navigate('/sign-in');
     } else {
-      axios.get('http://localhost:3001/api/admin/control-panel-admin', {
+      axios.get('http://localhost:3001/api/admin/control-panel', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -21,7 +23,7 @@ function ControlPanelAdmin() {
         console.log('Access granted:', response.data);
       })
       .catch(error => {
-        console.error('Access denied:', error);
+        console.error('Access denied:', error.response ? error.response.data : error.message);
         navigate('/sign-in');
       });
     }

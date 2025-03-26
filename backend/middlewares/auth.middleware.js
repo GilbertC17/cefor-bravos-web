@@ -1,9 +1,9 @@
 const jwt = require('jsonwebtoken');
-const User = require('../models/user.model');
 
 const authMiddleware = {
   verifyToken: (req, res, next) => {
     const token = req.headers['authorization'];
+    console.log('Token received in request:', token);
 
     if (!token) {
       console.log('No token provided');
