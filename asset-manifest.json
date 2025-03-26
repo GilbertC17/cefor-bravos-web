@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cefor-bravos-web/static/css/main.8677a997.css",
-    "main.js": "/cefor-bravos-web/static/js/main.4a582154.js",
+    "main.css": "/cefor-bravos-web/static/css/main.ebbc9895.css",
+    "main.js": "/cefor-bravos-web/static/js/main.503f98f2.js",
     "static/js/453.fd9cec78.chunk.js": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js",
     "static/media/notice-2.jpg": "/cefor-bravos-web/static/media/notice-2.82b4abc9f737ae7e9e68.jpg",
     "static/media/logo_tepanco.png": "/cefor-bravos-web/static/media/logo_tepanco.29846f6c9170b76f525f.png",
@@ -20,12 +20,12 @@
     "static/media/imagen-home1.jpg": "/cefor-bravos-web/static/media/imagen-home1.9d48d43206a1e1d14369.jpg",
     "static/media/notice-3.jpg": "/cefor-bravos-web/static/media/notice-3.c2ccd03b1f4998557f81.jpg",
     "index.html": "/cefor-bravos-web/index.html",
-    "main.8677a997.css.map": "/cefor-bravos-web/static/css/main.8677a997.css.map",
-    "main.4a582154.js.map": "/cefor-bravos-web/static/js/main.4a582154.js.map",
+    "main.ebbc9895.css.map": "/cefor-bravos-web/static/css/main.ebbc9895.css.map",
+    "main.503f98f2.js.map": "/cefor-bravos-web/static/js/main.503f98f2.js.map",
     "453.fd9cec78.chunk.js.map": "/cefor-bravos-web/static/js/453.fd9cec78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8677a997.css",
-    "static/js/main.4a582154.js"
+    "static/css/main.ebbc9895.css",
+    "static/js/main.503f98f2.js"
   ]
 }
